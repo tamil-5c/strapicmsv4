@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_newscard1_newscard1s",
+  "info": {
+    "displayName": "newscard1",
+    "icon": "apps"
+  },
+  "options": {},
+  "attributes": {
+    "newslogo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "date": {
+      "type": "date"
+    },
+    "newscontent": {
+      "type": "richtext"
+    }
+  }
+}
