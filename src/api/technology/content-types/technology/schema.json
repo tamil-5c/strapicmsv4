@@ -201,14 +201,18 @@
       ]
     },
     "footervideo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
+    },
+    "git": {
+      "type": "string"
     }
   }
 }

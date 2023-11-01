@@ -4,7 +4,8 @@
   "info": {
     "singularName": "newsroom",
     "pluralName": "newsrooms",
-    "displayName": "newsroom"
+    "displayName": "newsroom",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -12,14 +13,15 @@
   "pluginOptions": {},
   "attributes": {
     "newsimg": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
     },
     "news": {
       "type": "component",
@@ -33,24 +35,29 @@
       "type": "richtext"
     },
     "sociallogo": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
     },
     "footervideo": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
+    },
+    "getintouch": {
+      "type": "string"
     }
   }
 }

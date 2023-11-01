@@ -306,6 +306,17 @@
       ]
     },
     "headervideo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "newslogo": {
       "allowedTypes": [
         "images",
         "files",
@@ -313,7 +324,28 @@
         "audios"
       ],
       "type": "media",
-      "multiple": false
+      "multiple": true
+    },
+    "moreAboutUs": {
+      "type": "string"
+    },
+    "LearnMore": {
+      "type": "string"
+    },
+    "moreAboutTechnology": {
+      "type": "string"
+    },
+    "askUs": {
+      "type": "string"
+    },
+    "futureWith": {
+      "type": "string"
+    },
+    "aboutMedia": {
+      "type": "string"
+    },
+    "getInTouch": {
+      "type": "string"
     }
   }
 }

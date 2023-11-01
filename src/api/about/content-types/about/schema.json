@@ -141,6 +141,12 @@
         "videos",
         "audios"
       ]
+    },
+    "investor": {
+      "type": "string"
+    },
+    "getInTouch": {
+      "type": "string"
     }
   }
 }
